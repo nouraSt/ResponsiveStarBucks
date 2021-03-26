@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+    StarBucks
+    </title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="circle"></div>
+        <div class="container">
+            
+            <div class="navbar">
+                <div class="logo"><img src="images/logo (1).png"></div>
+                <div class="toggle" onClick=toggleMenu();></div>
+                <ul>
+                   
+                    <li><a>Home</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Contacts</a></li>
+                    <li><a>Menu</a></li>
+                </ul>
+            </div>
+       
+            <div class="content">
+                <div class="text">
+                   
+                    <h1>It's not just coffee <br> it's StarBucks</h1>
+                    <p> To make sure that the image covers the whole screen, you must also apply height: 100% to both</p>
+                    <button><span>Sign up</span></button>
+                </div>
+                <div class="imgBox">
+                    <img src="images/img1 (1).png" class="starbucks">
+                </div>
+            </div>
+        </div>
+        <section>
+            <script type="text/javascript">
+            function toggleMenu(){
+                var menuToggle = document.querySelector('.toggle');
+                menuToggle.classList.toggle('.active')
+            }
+
+            </script>
+          
+        </section>
+    </body>
+</html>
